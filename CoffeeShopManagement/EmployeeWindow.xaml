@@ -1,0 +1,32 @@
+﻿<Window x:Class="CoffeeShopManagement.EmployeeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CoffeeShopManagement"
+        mc:Ignorable="d"
+        Title="EmployeeWindow" Height="450" Width="800">
+    <Grid Margin="0,0,-0.4,0">
+        <Label x:Name="empname_label" Content="Employee Name:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="204" Height="38" FontWeight="Bold" FontSize="16"/>
+        <TextBox x:Name="empname_txt" HorizontalAlignment="Left" Height="38" Margin="274,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="257"/>
+        <Label x:Name="empid_label" Content="Employee Id:" HorizontalAlignment="Right" Margin="0,67,578.4,0" VerticalAlignment="Top" Height="35" Width="206" FontWeight="Bold" FontSize="16"/>
+        <TextBox x:Name="empid_txt" HorizontalAlignment="Left" Height="35" Margin="274,67,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="257"/>
+        <Label x:Name="empdis_label" Content="Employee Designation:" HorizontalAlignment="Left" Margin="10,124,0,0" VerticalAlignment="Top" Height="38" Width="204" FontWeight="Bold" FontSize="18"/>
+        <TextBox x:Name="empdesi_txt" HorizontalAlignment="Left" Height="38" Margin="274,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="257"/>
+        <Label x:Name="empsal_label" Content="Employee Salary:" HorizontalAlignment="Left" Margin="10,180,0,0" VerticalAlignment="Top" Height="40" Width="204" FontWeight="Bold" FontSize="16"/>
+        <TextBox x:Name="empsal_txt" HorizontalAlignment="Left" Height="40" Margin="274,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="257"/>
+        <Label x:Name="empphn_label" Content="Employee Phone No:" HorizontalAlignment="Left" Margin="10,238,0,0" VerticalAlignment="Top" Width="204" Height="44" FontWeight="Bold" FontSize="16"/>
+        <TextBox x:Name="empphn_txt" HorizontalAlignment="Left" Height="44" Margin="274,238,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="257"/>
+        <Label x:Name="empadd_label" Content="Employee Address:" HorizontalAlignment="Left" Margin="10,301,0,0" VerticalAlignment="Top" Height="46" Width="204" FontWeight="Bold" FontSize="16"/>
+        <TextBox x:Name="empadd_txt" HorizontalAlignment="Left" Height="46" Margin="274,301,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="257"/>
+        <Label x:Name="empnid_label" Content="Employee Nid:" HorizontalAlignment="Left" Margin="10,366,0,0" VerticalAlignment="Top" Width="204" Height="44" FontWeight="Bold" FontSize="16"/>
+        <TextBox x:Name="empnid_txt" HorizontalAlignment="Left" Height="44" Margin="274,366,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="257"/>
+        <Button x:Name="btnEmpSave" Content="Save" HorizontalAlignment="Left" Margin="648,33,0,0" VerticalAlignment="Top" Width="92" Height="41" FontWeight="Bold" FontSize="14" Click="btnEmpSave_Click"/>
+        <Button x:Name="btnEmpDelete" Content="Delete" HorizontalAlignment="Left" Margin="648,79,0,0" VerticalAlignment="Top" Width="92" Height="39" FontWeight="Bold" FontSize="14" Click="btnEmpDelete_Click"/>
+        <Button x:Name="btnEmpUpdate" Content="Update" HorizontalAlignment="Left" Margin="648,124,0,0" VerticalAlignment="Top" Width="92" Height="38" FontWeight="Bold" FontSize="14" Click="btnEmpUpdate_Click"/>
+        <Button x:Name="btnEmpLogout" Content="Logout" HorizontalAlignment="Left" Margin="648,168,0,0" VerticalAlignment="Top" Width="92" Height="40" FontWeight="Bold" FontSize="14" Click="btnEmpLogout_Click"/>
+        <Button x:Name="btnEmpBack" Content="Back" HorizontalAlignment="Left" Margin="648,213,0,0" VerticalAlignment="Top" Width="92" Height="43" FontSize="14" FontWeight="Bold" Click="btnEmpBack_Click"/>
+        <Button x:Name="btnEmpExit" Content="Exit" HorizontalAlignment="Left" Margin="648,274,0,0" VerticalAlignment="Top" Width="92" Height="40" RenderTransformOrigin="0.501,0.879" FontSize="16" FontWeight="Bold" Click="btnEmpExit_Click"/>
+
+    </Grid>
+</Window>

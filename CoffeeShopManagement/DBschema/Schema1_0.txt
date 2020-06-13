@@ -1,0 +1,42 @@
+﻿
+CREATE TABLE coffee (
+  coffid int(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY ,
+  coffname varchar(30) NOT NULL,
+  coffprice varchar(30) NOT NULL
+)
+
+
+
+CREATE TABLE employee (
+  empid int(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY ,
+  empname varchar(30) NOT NULL,
+  empdesi varchar(30) NOT NULL,
+  empsal varchar(30) NOT NULL,
+  empphn varchar(30) NOT NULL,
+  empadd varchar(30) NOT NULL,
+  empnid varchar(30) NOT NULL
+)
+
+
+CREATE TABLE ordertable (
+  custname varchar(30) NOT NULL,
+  ordrno int(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY ,
+  ordrdetls varchar(30) NOT NULL,
+  contactno varchar(30) NOT NULL,
+  totalbill varchar(30) NOT NULL
+)
+
+
+
+CREATE TABLE userinfo (
+  id int(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY ,
+  username varchar(30) NOT NULL,
+  password varchar(30) NOT NULL,
+  usertype varchar(30) NOT NULL
+)
+
+
+INSERT INTO userinfo (id, username, password, usertype) VALUES
+(1, 'raihan', '123', 'admin')
+
+
